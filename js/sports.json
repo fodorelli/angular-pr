@@ -1,0 +1,125 @@
+[
+  {
+    "football": [
+      {
+        "ID": "010",
+        "startTime": "17/11/2014 20:00",
+        "country": "Romania",
+        "countryCode": "RO",
+        "league": "League 1",
+        "leagueCode": "L1",
+        "leagueFull": "Liga 1 Romania",
+        "isLive": false,
+        "homeTeam": "Steaua Bucuresti",
+        "awayTeam": "Dinamo Bucuresti",
+        "scoreFirstHalf": "2-0",
+        "scoreSecondHalf": "1-1",
+        "finalScore": "3-1",
+        "homeRedCardsCount": "0",
+        "awayRedCardsCount": "1",
+        "awayRedCards": "7 Moti",
+        "status": "FT"
+      },
+      {
+        "ID": "009",
+        "startTime": "17/11/2014 18:00",
+        "country": "Romania",
+        "countryCode": "RO",
+        "league": "League 1",
+        "leagueCode": "L1",
+        "leagueFull": "Liga 1 Romania",
+        "isLive": false,
+        "homeTeam": "CFR Cluj",
+        "awayTeam": "U Cluj",
+        "scoreSecondHalf": "1-1",
+        "finalScore": "3-1",
+        "homeRedCardsCount": "0",
+        "awayRedCardsCount": "1",
+        "awayRedCards": null,
+        "status": "FT"
+      },
+      {
+        "ID": "008",
+        "startTime": "16/11/2014 20:00",
+        "country": "Romania",
+        "countryCode": "RO",
+        "league": "League 1",
+        "leagueCode": "L1",
+        "leagueFull": "Liga 1 Romania",
+        "isLive": false,
+        "homeTeam": "U Cluj",
+        "awayTeam": "Steaua Bucuresti",
+        "scoreFirstHalf": "0-0",
+        "scoreSecondHalf": "0-1",
+        "finalScore": "0-1",
+        "homeRedCardsCount": "0",
+        "awayRedCardsCount": "0",
+        "awayRedCards": null,
+        "status": "FT"
+      },
+      {
+        "ID": "007",
+        "startTime": "16/11/2014 18:00",
+        "country": "Romania",
+        "countryCode": "RO",
+        "league": "League 1",
+        "leagueCode": "L1",
+        "leagueFull": "Liga 1 Romania",
+        "isLive": false,
+        "homeTeam": "Dinamo Bucuresti",
+        "awayTeam": "CFR Cluj",
+        "scoreFirstHalf": "1-0",
+        "scoreSecondHalf": "1-1",
+        "finalScore": "2-1",
+        "homeRedCardsCount": "0",
+        "awayRedCardsCount": "0",
+        "awayRedCards": null,
+        "status": "FT"
+      },
+      {
+        "ID": "006",
+        "startTime": "15/11/2014 18:00",
+        "country": "Romania",
+        "countryCode": "RO",
+        "league": "League 1",
+        "leagueCode": "L1",
+        "leagueFull": "Liga 1 Romania",
+        "isLive": false,
+        "homeTeam": "CFR Cluj",
+        "awayTeam": "Steaua Bucuresti",
+        "scoreFirstHalf": "0-0",
+        "scoreSecondHalf": "0-3",
+        "finalScore": "0-3",
+        "homeRedCardsCount": "0",
+        "awayRedCardsCount": "0",
+        "awayRedCards": null,
+        "status": "FT"
+      },
+      {
+        "ID": "007",
+        "startTime": "16/11/2014 18:00",
+        "country": "Romania",
+        "countryCode": "RO",
+        "league": "League 1",
+        "leagueCode": "L1",
+        "leagueFull": "Liga 1 Romania",
+        "isLive": false,
+        "homeTeam": "U Cluj",
+        "awayTeam": "Dinamo Bucuresti",
+        "scoreFirstHalf": "1-0",
+        "scoreSecondHalf": "1-1",
+        "finalScore": "2-1",
+        "homeRedCardsCount": "0",
+        "awayRedCardsCount": "0",
+        "awayRedCards": null,
+        "status": "FT"
+      }
+    ]
+  },
+
+  {
+    "tennis": [
+
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html class="no-js" ng-app="sports">
+<head>
+	<title>Angular</title>
+
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+
+	<!-- CSS style -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<!-- CSS MEDIA QUERYES -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script type="text/javascript" src="js/modernizr.custom-2.6.2.min.js"></script>
+</head>
+
+
+
+<body ng-controller="SportsControllers as abc">
+
+	<!-- Content -->
+	<div ng-repeat="sport in abc.sports">
+		<football></football>
+	</div>
+
+	<!-- / Content -->
+
+
+
+
+
+	<!-- Google CDN's jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+
+	<!-- Custom js functions -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/football.js"></script>
+</body>
+</html>
