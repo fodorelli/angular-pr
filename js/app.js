@@ -1,13 +1,12 @@
 (function(){
-	var app = angular.module('sports', ['football']
-    );
+	var app = angular.module('sports', ['football']);
 
     app.controller('SportsControllers', ['$http', function($http){
-        var store = this;
-        store.sports = [];
+        var football = this;
+        football.sports = [];
         $http.get('js/sports.json').success(function(data){
-            store.sports = data;
-            console.log(store.sports);
+            football.sports = data;
+            console.log(data[0]);
         });
     }]);
 })();

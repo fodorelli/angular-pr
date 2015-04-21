@@ -2,117 +2,60 @@
   {
     "football": [
       {
-        "ID": "010",
-        "startTime": "17/11/2014 20:00",
-        "country": "Romania",
-        "countryCode": "RO",
-        "league": "League 1",
-        "leagueCode": "L1",
-        "leagueFull": "Liga 1 Romania",
-        "isLive": false,
-        "homeTeam": "Steaua Bucuresti",
-        "awayTeam": "Dinamo Bucuresti",
-        "scoreFirstHalf": "2-0",
-        "scoreSecondHalf": "1-1",
-        "finalScore": "3-1",
-        "homeRedCardsCount": "0",
-        "awayRedCardsCount": "1",
-        "awayRedCards": "7 Moti",
-        "status": "FT"
+        "team": "Steaua Bucuresti",
+        "games": [
+            {
+                "date": "21/03/2015",
+                "hour": "20:30",
+                "finalScore": "3-1",
+                "where": "home",
+                "place": "national arena",
+                "stats": "win",
+                "againstTeam": "Dinamo Bucuresti"
+            }
+        ]
       },
       {
-        "ID": "009",
-        "startTime": "17/11/2014 18:00",
-        "country": "Romania",
-        "countryCode": "RO",
-        "league": "League 1",
-        "leagueCode": "L1",
-        "leagueFull": "Liga 1 Romania",
-        "isLive": false,
-        "homeTeam": "CFR Cluj",
-        "awayTeam": "U Cluj",
-        "scoreSecondHalf": "1-1",
-        "finalScore": "3-1",
-        "homeRedCardsCount": "0",
-        "awayRedCardsCount": "1",
-        "awayRedCards": null,
-        "status": "FT"
+        "team": "CFR Cluj",
+        "games": [
+            {
+                "date": "21/03/2015",
+                "hour": "18:00",
+                "finalScore": "3-5",
+                "where": "away",
+                "place": "cluj arena",
+                "stats": "lost",
+                "againstTeam": "U Cluj"
+            }
+        ]
       },
       {
-        "ID": "008",
-        "startTime": "16/11/2014 20:00",
-        "country": "Romania",
-        "countryCode": "RO",
-        "league": "League 1",
-        "leagueCode": "L1",
-        "leagueFull": "Liga 1 Romania",
-        "isLive": false,
-        "homeTeam": "U Cluj",
-        "awayTeam": "Steaua Bucuresti",
-        "scoreFirstHalf": "0-0",
-        "scoreSecondHalf": "0-1",
-        "finalScore": "0-1",
-        "homeRedCardsCount": "0",
-        "awayRedCardsCount": "0",
-        "awayRedCards": null,
-        "status": "FT"
+        "team": "U Cluj",
+        "games": [
+            {
+                "date": "21/03/2015",
+                "hour": "18:00",
+                "finalScore": "5-3",
+                "where": "home",
+                "place": "cluj arena",
+                "stats": "win",
+                "againstTeam": "CFR Cluj"
+            }
+        ]
       },
       {
-        "ID": "007",
-        "startTime": "16/11/2014 18:00",
-        "country": "Romania",
-        "countryCode": "RO",
-        "league": "League 1",
-        "leagueCode": "L1",
-        "leagueFull": "Liga 1 Romania",
-        "isLive": false,
-        "homeTeam": "Dinamo Bucuresti",
-        "awayTeam": "CFR Cluj",
-        "scoreFirstHalf": "1-0",
-        "scoreSecondHalf": "1-1",
-        "finalScore": "2-1",
-        "homeRedCardsCount": "0",
-        "awayRedCardsCount": "0",
-        "awayRedCards": null,
-        "status": "FT"
-      },
-      {
-        "ID": "006",
-        "startTime": "15/11/2014 18:00",
-        "country": "Romania",
-        "countryCode": "RO",
-        "league": "League 1",
-        "leagueCode": "L1",
-        "leagueFull": "Liga 1 Romania",
-        "isLive": false,
-        "homeTeam": "CFR Cluj",
-        "awayTeam": "Steaua Bucuresti",
-        "scoreFirstHalf": "0-0",
-        "scoreSecondHalf": "0-3",
-        "finalScore": "0-3",
-        "homeRedCardsCount": "0",
-        "awayRedCardsCount": "0",
-        "awayRedCards": null,
-        "status": "FT"
-      },
-      {
-        "ID": "007",
-        "startTime": "16/11/2014 18:00",
-        "country": "Romania",
-        "countryCode": "RO",
-        "league": "League 1",
-        "leagueCode": "L1",
-        "leagueFull": "Liga 1 Romania",
-        "isLive": false,
-        "homeTeam": "U Cluj",
-        "awayTeam": "Dinamo Bucuresti",
-        "scoreFirstHalf": "1-0",
-        "scoreSecondHalf": "1-1",
-        "finalScore": "2-1",
-        "homeRedCardsCount": "0",
-        "awayRedCardsCount": "0",
-        "awayRedCards": null,
-        "status": "FT"
+        "team": "Dinamo Bucuresti",
+        "games": [
+            {
+                "date": "21/03/2015",
+                "hour": "20:30",
+                "finalScore": "1-3",
+                "where": "away",
+                "place": "national arena",
+                "stats": "lost",
+                "againstTeam": "Steaua Bucuresti"
+            }
+        ]
       }
     ]
   },
