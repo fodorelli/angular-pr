@@ -24,10 +24,11 @@
 
 <body ng-controller="SportsControllers as abc">
     <!-- Content -->
-    <header><h3>Sport Statistics</h3></header>
+    <header class="container">
+        <h3>Football Statistics</h3>
+    </header>
 
-    <!-- Aici vor fi statisticile din football -->
-    <div class="container" ng-repeat="teams in abc.sports">
+    <div class="container">
         <football></football>
     </div>
 

@@ -1,5 +1,13 @@
+<div class="filter list-group"> <!-- afisez o singura data filtrul dar stric functionalitatea controllerului ng-if="$index < 1" -->
+    <div class="input-group">
+        <label class="input-group-addon" id="basic-addon1">Any</label>
+        <input class="form-control" type="text" ng-model="search.$" aria-describedby="basic-addon1">
+    </div><br />
+    <a href="" class="btn btn-primary btn-md" ng-click="changeFilterTo('$')">Any</a>
+</div>
+
 <ul  class="list-group">
-    <li class="list-group-item" ng-repeat="team in teams.football">
-        <span>Team: {{team.team}} </span>
+    <li class="list-group-item" ng-repeat="team in abc.sports[0].football | filter:search">
+        <span class="homeTeam">{{team.team}} </span>
     </li>
 </ul>

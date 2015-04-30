@@ -5,8 +5,15 @@
        return {
            restrict: 'E',
            templateUrl: 'inc/football.html',
-           controller: function() {
 
+           controller: function() {
+              var $this = this;
+
+              $this.filter = "$";
+              $this.search = {$:''};
+              $this.changeFilterTo = function(pr) {
+                $this.filter = pr;
+              }
            },
            controllerAs: 'game'
        };
