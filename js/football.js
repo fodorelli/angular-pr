@@ -9,11 +9,11 @@
            controller: function() {
               var $this = this;
 
-              $this.filter = "$";
-              $this.search = {$:''};
-              $this.changeFilterTo = function(pr) {
-                $this.filter = pr;
-              }
+              $this.filters = { };
+              // $this.search = {$:''};
+              // $this.changeFilterTo = function(pr) {
+              //   $this.filter = pr;
+              // }
            },
            controllerAs: 'game'
        };

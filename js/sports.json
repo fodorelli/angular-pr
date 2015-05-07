@@ -10,8 +10,7 @@
                 "finalScore": "3-1",
                 "where": "home",
                 "place": "national arena",
-                "stats": "win",
-                "againstTeam": "Dinamo Bucuresti"
+                "stats": "win"
             }
         ]
       },
@@ -24,8 +23,7 @@
                 "finalScore": "3-5",
                 "where": "away",
                 "place": "cluj arena",
-                "stats": "lost",
-                "againstTeam": "U Cluj"
+                "stats": "lost"
             }
         ]
       },
@@ -38,8 +36,7 @@
                 "finalScore": "5-3",
                 "where": "home",
                 "place": "cluj arena",
-                "stats": "win",
-                "againstTeam": "CFR Cluj"
+                "stats": "win"
             }
         ]
       },
@@ -52,8 +49,7 @@
                 "finalScore": "1-3",
                 "where": "away",
                 "place": "national arena",
-                "stats": "lost",
-                "againstTeam": "Steaua Bucuresti"
+                "stats": "lost"
             }
         ]
       }

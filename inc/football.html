@@ -1,13 +1,20 @@
 <div class="filter list-group"> <!-- afisez o singura data filtrul dar stric functionalitatea controllerului ng-if="$index < 1" -->
     <div class="input-group">
         <label class="input-group-addon" id="basic-addon1">Any</label>
-        <input class="form-control" type="text" ng-model="search.$" aria-describedby="basic-addon1">
+        <input class="form-control" type="text" ng-model="filters" aria-describedby="basic-addon1">
     </div><br />
-    <a href="" class="btn btn-primary btn-md" ng-click="changeFilterTo('$')">Any</a>
+    <!-- <a href="" class="btn btn-primary btn-md" ng-click="changeFilterTo('')">Any</a> -->
+    <a href="" class="btn btn-primary btn-md" ng-repeat="teamsFilter in abc.sports[0].football" ng-click="filterTeam = {'team': '{{teamsFilter.team}}'}">{{teamsFilter.team}}</a>
+
+<!--     <a href="" class="btn btn-primary btn-md"  ng-click="filterTeam = {team: 'Steaua Bucuresti'}">Steaua</a>
+    <a href="" class="btn btn-primary btn-md"  ng-click="filterTeam = {team: 'Dinamo Bucuresti'}">Dinamo</a>
+    <a href="" class="btn btn-primary btn-md"  ng-click="filterTeam = {team: 'CFR Cluj'}">CFR Cluj</a>
+    <a href="" class="btn btn-primary btn-md"  ng-click="filterTeam = {team: 'U Cluj'}">U Cluj</a> -->
+    <a href="" class="btn btn-primary btn-md"  ng-click="filterTeam = null">All</a>
 </div>
 
 <ul  class="list-group">
-    <li class="list-group-item" ng-repeat="team in abc.sports[0].football | filter:search">
-        <span class="homeTeam">{{team.team}} </span>
+    <li class="list-group-item" ng-repeat="teams in abc.sports[0].football | filter:filterTeam">
+        <a class="homeTeam">{{teams.team}} </a>
     </li>
 </ul>
